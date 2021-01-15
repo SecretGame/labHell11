@@ -18,8 +18,5 @@ int main(){
 
 void mySwap(int &x,int &y){
 	int a,b;
-	a=x;
-	b=y;
-	x=b;
-	y=a;
+	swap(x,y);
 } 
